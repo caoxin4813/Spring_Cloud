@@ -1,0 +1,13 @@
+my:
+  name: forezp
+  age: 12
+
+management:
+  port: 9001
+  security:
+    enabled: false
+
+endpoints:
+  shutdown:
+    enabled: true
+
