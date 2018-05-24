@@ -1,0 +1,20 @@
+# 设置配置中心的GitLab地址
+# 应用名称
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/caoxin4813/Spring_Cloud.git
+          search-paths: CaaSSpringCloudInfra/Configuration_Center/CaaS_configRepo
+      label: master
+  application:
+    name: CaaS_Config_Server
+# 应用服务端口
+server:
+  port: 8769
+# Eureka注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

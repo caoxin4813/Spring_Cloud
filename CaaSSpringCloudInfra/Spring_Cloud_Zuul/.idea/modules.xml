@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Zuul_Client/CaaS_Zuul_Client.iml" filepath="$PROJECT_DIR$/CaaS_Zuul_Client/CaaS_Zuul_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Zuul_Gateway/CaaS_Zuul_Gateway.iml" filepath="$PROJECT_DIR$/CaaS_Zuul_Gateway/CaaS_Zuul_Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Cloud_Zuul.iml" filepath="$PROJECT_DIR$/Spring_Cloud_Zuul.iml" />
+    </modules>
+  </component>
+</project>

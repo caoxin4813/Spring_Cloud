@@ -1,0 +1,42 @@
+# 应用名称
+spring:
+  application:
+    name: CaaS_Eureka_Server_HA
+
+# HA配置：peer1
+---
+# 配置文件标识
+spring:
+  profiles: peer1
+# 应用服务端口
+server:
+  port: 8761
+# Eureka Server 配置
+eureka:
+  # 主机名称
+  instance:
+    hostname: peer1
+  # 服务客户端设置
+  client:
+    # 注册地址：peer2，实现双中心HA配置
+    service-url:
+      defaultZone: http://peer2:8762/eureka/
+
+# HA配置：peer2
+---
+# 配置文件标识
+spring:
+  profiles: peer2
+# 应用服务端口
+server:
+  port: 8762
+# Eureka Server 配置
+eureka:
+  # 主机名称
+  instance:
+    hostname: peer2
+  # 服务客户端设置
+  client:
+    # 注册地址：peer1，实现双中心HA配置
+    service-url:
+      defaultZone: http://peer1:8761/eureka/

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Config_Client/CaaS_Config_Client.iml" filepath="$PROJECT_DIR$/CaaS_Config_Client/CaaS_Config_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Config_Server/CaaS_Config_Server.iml" filepath="$PROJECT_DIR$/CaaS_Config_Server/CaaS_Config_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Cloud_Config.iml" filepath="$PROJECT_DIR$/Spring_Cloud_Config.iml" />
+    </modules>
+  </component>
+</project>

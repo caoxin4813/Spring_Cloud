@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Sleuth_Gateway/CaaS_Sleuth_Gateway.iml" filepath="$PROJECT_DIR$/CaaS_Sleuth_Gateway/CaaS_Sleuth_Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Sleuth_User/CaaS_Sleuth_User.iml" filepath="$PROJECT_DIR$/CaaS_Sleuth_User/CaaS_Sleuth_User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Zipkin_Server/CaaS_Zipkin_Server.iml" filepath="$PROJECT_DIR$/CaaS_Zipkin_Server/CaaS_Zipkin_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Cloud_Sleuth.iml" filepath="$PROJECT_DIR$/Spring_Cloud_Sleuth.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+spring:
+  # 应用名称
+  application:
+    name: CaaS_Config_Client
+  # 配置服务中心地址
+  cloud:
+    config:
+      uri: http://localhost:8769
+      fail-fast: true
+  # 配置文件版本
+  profiles:
+    active: dev

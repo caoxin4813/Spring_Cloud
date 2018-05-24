@@ -1,0 +1,18 @@
+# 应用服务端口
+server:
+  port: 8761
+
+# Eureka Server 服务参数配置
+eureka:
+  # 主机名称
+  instance:
+    hostname: localhost
+  # 服务客户端配置
+  client:
+    # 不把自身作为一个服务注册到注册中心
+    register-with-eureka: false
+    # 此处为是否同步信息，为Server集群配置，设置禁用
+    fetch-registry: false
+    # Eureka Server 服务地址
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

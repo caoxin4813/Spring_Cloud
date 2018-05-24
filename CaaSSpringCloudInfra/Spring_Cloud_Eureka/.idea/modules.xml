@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Eureka_Server/CaaS_Eureka_Server.iml" filepath="$PROJECT_DIR$/CaaS_Eureka_Server/CaaS_Eureka_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaaS_Eureka_Server_HA/CaaS_Eureka_Server_HA.iml" filepath="$PROJECT_DIR$/CaaS_Eureka_Server_HA/CaaS_Eureka_Server_HA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Cloud_Eureka.iml" filepath="$PROJECT_DIR$/Spring_Cloud_Eureka.iml" />
+    </modules>
+  </component>
+</project>

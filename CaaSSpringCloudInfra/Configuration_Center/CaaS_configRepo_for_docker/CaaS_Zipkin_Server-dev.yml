@@ -1,0 +1,27 @@
+# 应用服务端口
+server:
+  port: 9411
+spring:
+  # RabbitMQ配置
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+  # 设置http sleuth功能为关闭
+  sleuth:
+    enabled: false
+# Zipkin服务配置
+zipkin:
+  # 存储设置为ElasticSearch
+  storage:
+    type: elasticsearch
+    StorageComponent: elasticsearch
+    elasticsearch:
+      cluster: elasticsearch
+      max-requests: 30
+      index: zipkin
+      index-shards: 3
+      index-replicas: 1
+      hosts: elasticsearch:9200
+      

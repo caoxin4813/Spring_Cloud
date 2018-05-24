@@ -1,0 +1,20 @@
+# Eureka Client 服务参数配置
+eureka:
+  client:
+    # 注册中心地址
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# 应用服务端口
+server:
+  port: 5000
+# 应用名称
+spring:
+  application:
+    name: CaaS_Zuul_Gateway
+# Zuul服务网关配置
+zuul:
+  routes:
+    testapi:
+      path: /testapi/**
+      serviceId: CaaS_Zuul_Client
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CaaS_Zuul_Client" />
+        <module name="CaaS_Zuul_Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CaaS_Zuul_Client" target="1.8" />
+      <module name="CaaS_Zuul_Gateway" target="1.8" />
+      <module name="Spring_Cloud_Zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

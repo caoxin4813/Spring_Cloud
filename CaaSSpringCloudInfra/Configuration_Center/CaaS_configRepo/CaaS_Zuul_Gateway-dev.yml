@@ -1,0 +1,21 @@
+# 应用服务端口
+server:
+  port: 5000
+# Zuul服务网关配置
+zuul:
+  routes:
+    testapi:
+      path: /testapi/**
+      serviceId: CaaS_Service_Test  
+#服务追踪配置
+spring:
+  # Sleuth配置：100%
+  sleuth:
+    sampler:
+      percentage: 1.0
+  # RabbitMQ配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest      

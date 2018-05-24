@@ -1,0 +1,15 @@
+# 应用服务端口
+server:
+  port: 8763
+spring:
+  # Sleuth配置：100%
+  sleuth:
+    sampler:
+      percentage: 1.0
+  # RabbitMQ配置
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+    
